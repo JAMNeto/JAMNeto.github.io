@@ -2,52 +2,33 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - José Antônio Moura Neto</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    body {
-        background-color:rgb(155, 155, 155);
-    }
-    h2 { font-family: 'Courier New', Courier, monospace;
-    }
-    #about{
-        font-size: 22px;
-        text-align: justify;
-
-    }
-    #foto{
-        border-radius: 100%;
-    
-    }
-    #elem1 { font-size: 20px;
-        
-    }
-    .links2 {
-        text-align: center;
-    }
-</style>
 <body>
+    <div class=port-header>
     <h1><em>Meu Portfolio</em></h1>
     <h2>José Antônio Moura Neto</h2>
+    </div>
+    <div class="about-me"
+    <h2 id="sobre"><em>Sobre mim:</em></h2>
+    <p id="about">Natural do município de Itabaiana/SE, tenho 26 anos, sou formado em direito, atuei como advogado por cerca de 5 anos, porém sempre tive o sonho de trabalhar na área da tecnologia, sonho este que está cada vez mais próximo de se concretizar graças à <strong>TRYBE!</strong></p>
     <img id="foto" src=images/eu.jpg width="280" alt="Foto de José Antônio Moura Neto">
+    </div>
     <ul>
         <li><a href="#sobre">Sobre mim</a></li>
         <li><a href="#pontos">Pontos importantes</a></li>
         <li><a href="#links">Links externos</a></li>
     </ul>
-    <h2 id="sobre"><em>Sobre mim:</em></h2>
-    <p id="about">Natural do município de Itabaiana/SE, tenho 26 anos, sou formado em direito, atuei como advogado por cerca de 5 anos, porém sempre tive o sonho de trabalhar na área da tecnologia, sonho este que está cada vez mais próximo de se concretizar graças à <strong>TRYBE!</strong></p>
     <h2 id="pontos"><em>Pontos importantes:</em></h2>
-    <ul>
-        <li id="elem1">Adoro interagir com outras pessoas</li>
-        <li id="elem1">Facilidade em me comunicar com pessoas novas</li>
-        <li id="elem1">Assimilação rápida de novos conteúdos</li>
-        <li id="elem1">Vontade de aprender e coragem para pesquisar</li>
-        <li id="elem1">Grande paixão por tecnologia</li>
-        <li id="elem1">Paciência de sobra</li>
-    </ul>
+    <ol>
+        <li class="elem1">Adoro interagir com outras pessoas</li>
+        <li>Facilidade em me comunicar com pessoas novas</li>
+        <li class="elem1">Assimilação rápida de novos conteúdos</li>
+        <li>Vontade de aprender e coragem para pesquisar</li>
+        <li class="elem1">Grande paixão por tecnologia</li>
+        <li>Paciência de sobra</li>
+    </ol>
     <h2 id="links" class="links2"><em>Links externos:</em></h2>
     <p class="links2"><a href="https://www.linkedin.com/in/jamouraneto/" target="_blank">LinkedIn</a><br></p>
     <p class="links2"><a href="https://github.com/JAMNeto" target="_blank">GitHub</a><br></p>

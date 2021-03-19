@@ -1,0 +1,32 @@
+body {
+    background-color: #8f8f8f;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.port-header{
+    text-align: center;
+    
+}
+#foto{
+    border-radius: 100%;
+    margin-left: 800px;
+    margin-top: -150px;
+    padding: 15px;
+    background-color: brown;
+
+}
+
+.about-me{
+    text-align: left;
+    max-width: 700px;
+    margin-top: 100px;
+    font-size: larger;
+    margin-left: 10px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.elem1{
+    text-decoration: underline;
+}
